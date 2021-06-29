@@ -67,19 +67,19 @@ include_once 'getData.php';
     <div class="row text-center mw-100 my-5 row-cols-1 row-cols-md-2 gy-3  global">
         <div class="col">
             <h2 class="text-muted"><img src="icon/Confirmed.svg" alt="" width="30px"> Coronavirus Cases:</h2>
-            <p><?php echo $G_Confirmed;  ?></p>
+            <p><?php echo $G_Confirmed;  ?>0</p>
         </div>
         <div class="col">
             <h2 class="text-danger"><img src="icon/death.svg" alt="" width="30px">Deaths:</h2>
-            <p><?php echo $G_Deaths;  ?></p>
+            <p><?php echo $G_Deaths;  ?>0</p>
         </div>
         <div class="col">
             <h2 class="text-success"><img src="icon/vaccine.svg" alt="" width="30px">Recovered:</h2>
-            <p><?php echo $G_Recovered;  ?> </p>
+            <p><?php echo $G_Recovered;  ?>0 </p>
         </div>
         <div class="col">
             <h2 class="text-primary"><img src="icon/fever.svg" alt="" width="30px">Active:</h2>
-            <p><?php echo $G_Active;  ?></p>
+            <p><?php echo $G_Active;  ?>0</p>
         </div>
     </div>
 
